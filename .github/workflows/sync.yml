@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Sync Code
-        uses: Realperas/LeetCode-Sync-Bot@v1.1.2
+        uses: JoshCai/leetcode-sync@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
